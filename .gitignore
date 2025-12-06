@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ignorar todos los archivos generados dentro de la carpeta 'received'
+src/files/received/*
+# Excepto el archivo .gitkeep, que permite a git rastrear la carpeta vacía
+!src/files/received/.gitkeep
+# Ignorar todos los archivos generados dentro de la carpeta 'generated'
+src/files/generated/*
+# Excepto el archivo .gitkeep, que permite a git rastrear la carpeta vacía
+!src/files/generated/.gitkeep
+# Opcional: Ignorar cualquier archivo .gitkeep en cualquier subdirectorio si no quieres que aparezca
+.gitkeep
