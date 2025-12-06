@@ -60,4 +60,4 @@ src/files/generated/*
 # Excepto el archivo .gitkeep, que permite a git rastrear la carpeta vacía
 !src/files/generated/.gitkeep
 # Opcional: Ignorar cualquier archivo .gitkeep en cualquier subdirectorio si no quieres que aparezca
-.gitkeep
+# .gitkeep
