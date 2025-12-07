@@ -1,6 +1,4 @@
-import os
-
-from fastapi import APIRouter, File, HTTPException, UploadFile
+from fastapi import APIRouter, HTTPException
 from fastapi.responses import FileResponse
 
 from core.config import settings
