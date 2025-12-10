@@ -31,6 +31,8 @@ class SttService:
                 response_format=self.config.response_format,
                 language=self.config.language,
             )
+            # eliminar cualquier espacio, coma, punto o guion que se encuentre entre dos
+            # dígitos consecutivos en la cadena de texto
             transcription = re.sub(r"(?<=\d)[\s\.,-]+(?=\d)", "", transcription)
             return {"transcription": transcription, "language": self.config.language}
         except Exception as e:
